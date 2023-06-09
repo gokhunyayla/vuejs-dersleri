@@ -1,0 +1,16 @@
+span{
+    background: red;
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.aktif span{
+    background: green;
+}
+
+.ekstra span:after{
+    content: "extra içerik";
+    margin-left: 10px;
+}

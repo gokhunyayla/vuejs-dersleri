@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue.js Denemesi</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="app">
+            <h1>Etkinlikler (Events)</h1>
+            <button v-on:click.once="age++">Yaşımı Artır</button>
+            <button v-on:click="age--">Yaşımı Azalt</button>
+
+            <button v-on:click="ekle">Yaşımı Fonksiyon ile Artır</button>
+            <button v-on:click="cikar">Yaşımı Fonksiyon ile Azalt</button>
+
+            <button v-on:click="ekle10(10)">Yaşımı 10 Artır</button>
+            <button v-on:click="cikar10(10)">Yaşımı 10 Azalt</button>
+
+            <p>Yaşım: {{ age }}</p>
+
+            <div id="canvas" v-on:mousemove="updateXY">{{ x }}, {{ y }}</div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

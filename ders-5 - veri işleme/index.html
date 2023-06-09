@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vue.js Denemesi</title>
+        <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    </head>
+    <body>
+        <div id="ilk-uygulama">
+           <p>İsim: {{ name }}</p>
+           <p>Meslek: {{ job }}</p>
+           <p>Website: <a v-bind:href="website">Benim Sitem</a></p>
+           <p><a :href="website">V-Bind : ile belirtildi - Benim Websitem</a></p>
+           <input type="text" :value="name">
+
+           <p v-html="websiteTag"></p>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
