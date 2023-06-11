@@ -15,3 +15,5 @@ bazı derslerde Google Firebase kullanmamız gerekecek; çok basit bir şekilde 
 
 İhtiyacı olanların işine yaramasını umuyorum.
 Dua yeter.
+
+Youtube Video Eğitimi serisine buradan ulaşabilirsiniz: https://www.youtube.com/playlist?list=PLxyK_IDMxgCUGrfAiM1y3vM01vB-9tQO3
